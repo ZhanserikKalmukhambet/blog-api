@@ -21,3 +21,13 @@ func (m *Manager) CreateUser(ctx context.Context, user *model.User) error {
 
 	return nil
 }
+
+func (m *Manager) UpdateUser(ctx context.Context, user *model.User) error {
+	//TODO implement me
+	panic("implement me")
+}
+
+func (m *Manager) DeleteUser(ctx context.Context, user *model.User) error {
+	//TODO implement me
+	panic("implement me")
+}
